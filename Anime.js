@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Goodmorning') {
-        message.channel.send('https://vignette.wikia.nocookie.net/pokemonfanon/images/6/63/Nodoka_waking_up.gif/revision/latest?cb=20161110064638');
+        message.channel.send('https://gifimage.net/morning-anime-gif-6/');
       }
    
 });
@@ -26,7 +26,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Spice') {
-        message.channel.send('https://steamusercontent-a.akamaihd.net/ugc/163654259564205421/86463FD8B6EB83F487FC7829393A3774CD80A51F/ ');
+        message.channel.send('https://gifimage.net/spice-and-wolf-holo-gif-12/');
       }
 });
                                                                                                                                                                                                                                                        
