@@ -26,7 +26,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Spice') {
-        message.channel.send('https://gifimage.net/spice-and-wolf-holo-gif-12/');
+        message.channel.send('https://gifimage.net/wp-content/uploads/2018/05/spice-and-wolf-holo-gif-12.gif');
       }
 });
                                                                                                                                                                                                                                                        
