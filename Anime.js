@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Goodmorning') {
-        message.channel.send('https://gifimage.net/morning-anime-gif-6/');
+        message.channel.send('https://gifimage.net/wp-content/uploads/2018/11/morning-anime-gif-6.gif');
       }
    
 });
