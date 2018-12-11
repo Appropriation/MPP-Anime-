@@ -6,13 +6,13 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Goodnight') {
+    if (message.content === 'Goodnight!') {
         message.channel.send('https://gifimage.net/wp-content/uploads/2017/09/anime-sleep-gif-7.gif');
       }
 });
 
 client.on('message', message => {
-    if (message.content === 'Goodmorning') {
+    if (message.content === 'Goodmorning!') {
         message.channel.send('https://gifimage.net/wp-content/uploads/2018/11/morning-anime-gif-6.gif');
       }
    
@@ -27,6 +27,12 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'Spice') {
         message.channel.send('https://gifimage.net/wp-content/uploads/2018/05/spice-and-wolf-holo-gif-12.gif');
+      }
+});
+
+client.on('message', message => {
+    if (message.content === 'Salute') {
+        message.channel.send('https://gifimage.net/wp-content/uploads/2018/10/anime-salute-gif-5.gif');
       }
 });
                                                                                                                                                                                                                                                        
