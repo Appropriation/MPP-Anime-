@@ -12,6 +12,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === 'OnePunch') {
+        message.channel.send('https://gifimage.net/wp-content/uploads/2018/04/one-punch-man-gif-tumblr-10.gif');
+      }
+});
+
+client.on('message', message => {
     if (message.content === 'Welcome!') {
         message.channel.send('https://gifimage.net/wp-content/uploads/2017/09/anime-welcome-gif.gif');
       }
