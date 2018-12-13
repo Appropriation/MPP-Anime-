@@ -12,6 +12,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === 'Yato') {
+        message.channel.send('https://gifimage.net/wp-content/uploads/2018/06/yato-noragami-gif-14.gif');
+      }
+});
+
+client.on('message', message => {
     if (message.content === 'OnePunch') {
         message.channel.send('https://gifimage.net/wp-content/uploads/2018/04/one-punch-man-gif-tumblr-10.gif');
       }
@@ -29,6 +35,12 @@ client.on('message', message => {
       }
    
 });
+
+client.on('message', message => {
+    if (message.content === 'Saitama') {
+        message.channel.send('https://gifimage.net/wp-content/uploads/2018/11/one-punch-man-gif-manga.gif');
+      }
+    });
 
 client.on('message', message => {
     if (message.content === 'Adorable') {
