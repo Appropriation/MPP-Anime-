@@ -15,32 +15,31 @@ client.on('message', message => {
     if (message.content === '!yato') {
         message.channel.send("I cleanse thee. Rend!", {files:["https://pa1.narvii.com/6186/abadf3a5fb3df4bc8b6710797f141a64c508dd50_hq.gif"]});;
       }
-});                                                      
+});
 
 client.on('message', message => {
-    if (message.content === 'OnePunch') {
-        message.channel.send('https://gifimage.net/wp-content/uploads/2018/04/one-punch-man-gif-tumblr-10.gif');
+    if (message.content === '!OnePunch') {
+        message.channel.send("I'm Going to be the strongest Hero", {files:["https://gifimage.net/wp-content/uploads/2018/04/one-punch-man-gif-tumblr-10.gif"]});;
+      }
+});    
+
+client.on('message', message => {
+    if (message.content === '!Welcome') {
+        message.channel.send("Welcome to the MPP Anime Discord! :D", {files:["https://gifimage.net/wp-content/uploads/2017/09/anime-welcome-gif.gif"]});;
+      }
+});     
+
+client.on('message', message => {
+    if (message.content === '!Goodmorning') {
+        message.channel.send("Get Enough Sleep?", {files:["https://gifimage.net/wp-content/uploads/2018/11/morning-anime-gif-6.gif"]});;
       }
 });
 
 client.on('message', message => {
-    if (message.content === 'Welcome!') {
-        message.channel.send('https://gifimage.net/wp-content/uploads/2017/09/anime-welcome-gif.gif');
+    if (message.content === '!Saitama') {
+        message.channel.send("Wack", {files:["https://gifimage.net/wp-content/uploads/2018/11/one-punch-man-gif-manga.gif"]});;
       }
 });
-
-client.on('message', message => {
-    if (message.content === 'Goodmorning!') {
-        message.channel.send('https://gifimage.net/wp-content/uploads/2018/11/morning-anime-gif-6.gif');
-      }
-   
-});
-
-client.on('message', message => {
-    if (message.content === 'Saitama') {
-        message.channel.send('https://gifimage.net/wp-content/uploads/2018/11/one-punch-man-gif-manga.gif');
-      }
-    });
 
 client.on('message', message => {
     if (message.content === 'Adorable') {
