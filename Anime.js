@@ -15,6 +15,7 @@ client.on('message', message => {
     if (message.content === '!yato') {
         message.channel.send("I cleanse thee. Rend!", {files:["https://pa1.narvii.com/6186/abadf3a5fb3df4bc8b6710797f141a64c508dd50_hq.gif]});;
       }
+});                                                          
 
 client.on('message', message => {
     if (message.content === 'OnePunch') {
