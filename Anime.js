@@ -58,13 +58,6 @@ client.on('message', message => {
 		message.channel.send('https://gifimage.net/wp-content/uploads/2018/10/anime-salute-gif-5.gif');
 	}
 });
-client.on('message', message => {
-	if (message.content.startsWith("GoogleImages")) {
-		googleImagesClient.search(message.content.substr(12)).then(function(images){
-			message.channel.send(images.map(x => x.url).join("\n"), {split:true});
-		});
-	}
-});
                                                                                                                                                                                                                                                        
                                                                                                                               
 // THIS  MUST  BE  THIS  WAY
