@@ -1,9 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const GoogleImages = require('google-images');
-const googleImagesClient = new GoogleImages(process.env.GCSE_ID, process.env.GCSE_API_KEY);
-
 client.on('ready', () => {
 	console.log('I am ready!');
 });
@@ -58,13 +55,6 @@ client.on('message', message => {
 		message.channel.send('https://gifimage.net/wp-content/uploads/2018/10/anime-salute-gif-5.gif');
 	}
 });
-client.on('message', message => {
-    if (message.content.startsWith("GoogleImages")) {
-        googleImagesClient.search(message.content.substr(12)).then(function(images){
-            message.channel.send(images.map(x => x.url).join("\n"), {split:true});
-        });
-    }
-});	
                                                                                                                                                                                                                                                        
                                                                                                                               
 // THIS  MUST  BE  THIS  WAY
