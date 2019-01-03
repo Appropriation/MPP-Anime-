@@ -52,10 +52,25 @@ client.on('message', message => {
 });
 client.on('message', message => {
 	if (message.content === 'Salute') {
-		message.channel.send('https://gifimage.net/wp-content/uploads/2018/10/anime-salute-gif-5.gif');
+		message.channel.send("Good Luck Cadet!", {files:["https://gifimage.net/wp-content/uploads/2018/10/anime-salute-gif-5.gif"]});;
 	}
 });
-                                                                                                                                                                                                                                                       
-                                                                                                                              
+client.on('message', message => {
+	if (message.content === 'TokyoGhoul') {
+		message.channel.send("If an angelic being fell from the sky and tried to live in this world of ours I think even they would commit many wrongs.Sometimes good people make bad choices. It doesn't mean they are bad people.", {files:["https://gifimage.net/wp-content/uploads/2018/11/tokyo-ghoul-sad-gif-3.gif"]});;
+	}
+});
+client.on('message', message => {
+	if (message.content === 'Inu') {
+		message.channel.send("Never Again...", {files:["https://gifimage.net/wp-content/uploads/2017/11/inu-x-boku-ss-gif-11.gif"]});;
+	}
+});
+client.on('message', message => {
+	if (message.content === 'Hug') {
+		message.channel.send("Aww You need a hug", {files:["https://gifimage.net/wp-content/uploads/2018/11/sad-anime-hug-gif-4.gif"]});;
+	}
+});
+
+                                                                                                                                                                                                                                                                                                                                                                                 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
