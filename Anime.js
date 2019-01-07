@@ -70,6 +70,43 @@ client.on('message', message => {
 		message.channel.send("Aww You need a hug", {files:["https://gifimage.net/wp-content/uploads/2018/11/sad-anime-hug-gif-4.gif"]});;
 	}
 });
+client.on('message', message => {
+	if (message.content === 'GurrenLagann') {
+		message.channel.send("Just who the hell do you think i am!?", {files:["https://gifimage.net/wp-content/uploads/2018/11/gurren-lagann-believe-in-me-who-believes-in-you-gif-4.gif"]});;
+	}
+});
+client.on('message', message => {
+	if (message.content === 'NGNL') {
+		message.channel.send("Baka", {files:["https://gifimage.net/wp-content/uploads/2018/11/no-game-no-life-zero-gif.gif"]});;
+	}
+});
+client.on('message', message => {
+	if (message.content === 'TWGOK') {
+		message.channel.send("I am the god of conquest", {files:["https://gifimage.net/wp-content/uploads/2018/06/the-world-god-only-knows-gif.gif"]});;
+	}
+});
+client.on('message', message => {
+	if (message.content === 'Neptune') {
+		message.channel.send("oww i just wanna play!", {files:["https://gifimage.net/wp-content/uploads/2017/10/neptune-hyperdimension-neptunia-gif-4.gif"]});;
+	}
+});
+client.on('message', message => {
+	if (message.content === 'AbsoluteDuo') {
+		message.channel.send("Julie and Toore", {files:["https://gifimage.net/wp-content/uploads/2017/09/absolute-duo-gif-12.gif"]});;
+	}
+});
+client.on('message', message => {
+	if (message.content === 'Charlotte') {
+		message.channel.send("Blunder", {files:["https://gifimage.net/wp-content/uploads/2018/11/charlotte-yuu-gif.gif"]});;
+	}
+});
+client.on('message', message => {
+	if (message.content === 'NoWorldBreak') {
+		message.channel.send("I remember, i remember it all!", {files:["https://gifimage.net/wp-content/uploads/2018/05/seiken-tsukai-no-world-break-gif-7.gif"]});;
+	}
+});
+
+
 
                                                                                                                                                                                                                                                                                                                                                                                  
 // THIS  MUST  BE  THIS  WAY
