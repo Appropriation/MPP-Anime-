@@ -106,7 +106,7 @@ client.on('message', message => {
 	}
 });
 client.on('message', message => {
-	if (message.content === 'NoWorldBreak') {
+	if (message.content === 'NoragamiEp1') {
 		message.channel.send("Noragami Episode 1 Full (Dubbed)", {files:["https://r3---sn-4g5ednee.googlevideo.com/videoplayback?id=304fbe5642068a89&itag=37&source=picasa&begin=0&requiressl=yes&pl=24&sc=yes&ei=EbA1XPzHFNiz1gLZjL-gDw&susc=ph&app=fife&mime=video/mp4&cnr=14&dur=1474.025&lmt=1546882190715241&ip=2001:41d0:303:5dca::&ipbits=48&expire=1547029553&sparams=app,cnr,dur,ei,expire,id,ip,ipbits,itag,lmt,mime,mip,mm,mn,ms,mv,pl,requiressl,sc,source,susc&signature=5475E9ABE72ED570C185692D9A9398B6F0367DAA.6D367F4759FDBCAFF34434E98729D898C8D73113&key=cms1&mip=46.32.238.218&redirect_counter=1&cm2rm=sn-4g5ez67s&req_id=a893453e0295a3ee&cms_redirect=yes&mm=34&mn=sn-4g5ednee&ms=ltu&mt=1547022271&mv=m"]});;
 	}
 });
