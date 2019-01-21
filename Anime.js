@@ -135,7 +135,12 @@ client.on('message', message => {
 		message.channel.send("Adorable!!!", {files:["https://gifimage.net/wp-content/uploads/2017/10/date-a-live-kurumi-gif.gif"]});;
 	}
 });
-
+client.on('message', message => {
+    if (message.content === 'Help') {
+    	message.reply('Heres a list of commands: Toga Kurumi Bakugo Deku Almight ToLoveRu NoWorldBreak Charlotte AbsoluteDuo Neptune TWGOK NGNL GurrenLagann Hug Inu TokyoGhoul Salute Spice Adorable Saitama GoodMorning! Welcome! OnePunch
+');
+  	}
+});
                                                                                                                                                                                                                                                                                                                                                                                  
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
