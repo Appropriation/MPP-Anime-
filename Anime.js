@@ -137,8 +137,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === 'Help') {
-    	message.reply('Heres a list of commands: Toga Kurumi Bakugo Deku Almight ToLoveRu NoWorldBreak Charlotte AbsoluteDuo Neptune TWGOK NGNL GurrenLagann Hug Inu TokyoGhoul Salute Spice Adorable Saitama GoodMorning! Welcome! OnePunch
-');
+    	message.reply('Heres a list of commands: Toga Kurumi Bakugo Deku Almight ToLoveRu NoWorldBreak Charlotte AbsoluteDuo Neptune TWGOK NGNL GurrenLagann Hug Inu TokyoGhoul Salute Spice Adorable Saitama GoodMorning! Welcome! OnePunch');
   	}
 });
                                                                                                                                                                                                                                                                                                                                                                                  
