@@ -140,6 +140,13 @@ client.on('message', message => {
     	message.reply('Heres a list of commands: Toga Kurumi Bakugo Deku Almight ToLoveRu NoWorldBreak Charlotte AbsoluteDuo Neptune TWGOK NGNL GurrenLagann Hug Inu TokyoGhoul Salute Spice Adorable Saitama GoodMorning! Welcome! OnePunch');
   	}
 });
+client.on('message', message => {
+    if (message.content === ':O') {
+         message.channel.send("OMG", {files:["https://gifimage.net/wp-content/uploads/2018/04/omg-anime-gif.gif"]});;
+	}
+});       
+
+});
                                                                                                                                                                                                                                                                                                                                                                                  
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
