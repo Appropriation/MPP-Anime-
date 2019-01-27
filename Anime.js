@@ -145,8 +145,6 @@ client.on('message', message => {
          message.channel.send("OMG", {files:["https://gifimage.net/wp-content/uploads/2018/04/omg-anime-gif.gif"]});;
 	}
 });       
-
-});
                                                                                                                                                                                                                                                                                                                                                                                  
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
